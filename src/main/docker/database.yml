@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+
+  user-database:
+    image: mysql:latest #use latest version of mysql
+    container_name: user-database #add a name for the container
+    restart: always
+    environment: #add default values, see docs for more info
+      MYSQL_USER: "User"
+      MYSQL_ROOT_PASSWORD: "pass"
+      MYSQL_PASSWORD: "pass"
+      MYSQL_DATABASE: "User"
+    ports:
+      - "3306:3306"

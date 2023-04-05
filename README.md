@@ -1,4 +1,4 @@
-#User [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
+# User [Spring Boot](http://projects.spring.io/spring-boot/) sample app.
 
 This application is using JHipster 7.9.3 web framework, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
 
